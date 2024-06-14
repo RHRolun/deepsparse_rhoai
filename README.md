@@ -9,6 +9,6 @@ Much of the content is based on this repo which also contains a training pipelin
 2. Add this [Custom Serving Runtime](/deepsparse_runtime) to your RHOAI cluster. It should be using REST and be a Single-Model Serving runtime.  
 3. Create a workbench that's connected to a Data Connection which points to where you want to store your model. Then clone this repository into that workbench.  
 4. Follow this [notebook](/download_and_save.ipynb) to download a model and save it to S3. Note that the Granite 7b model requires about 10GB of storage.  
-5. Serve that model using the Serving runtime you added earlier. I was successfully serving the default model with a **Small** server size.  
+5. Serve that model using the Serving runtime you added earlier. I was successfully serving the Grainte model with a **Small** server size.  
 6. Send requests to it through this [notebook](/test_requsets.ipynb).  
 7. (Optional) Follow [this](https://github.com/rh-aiservices-bu/llm-on-openshift/tree/main/examples/ui/gradio/gradio-rag-milvus-vllm-openai) guide to create a RAG application with your served model.  
