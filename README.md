@@ -2,6 +2,7 @@
 
 This is a quick guide for serving LLMs on a CPU using DeepSparse from Neural Magic.  
 Much of the content is based on this repo which also contains a training pipeline: [https://github.com/luis5tb/neural-magic-poc](https://github.com/luis5tb/neural-magic-poc)  
+Note that although the performance when running on CPUs is serviceable for testing or a few users, GPU may give better performance when scaling up to production.  
 
 ## Guide
 
